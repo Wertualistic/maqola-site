@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+  font-family: "Lora";
+}
+
+.nav_brand h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 130px;
+  border-bottom: 1px solid #6B6A6A;
+}
+
+nav .search_bar {
+  display: flex;
+  align-items: center;
+}
+
+nav .search_bar input {
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 15px;
+  color: #afafaf;
+  outline: none;
+}
+
+nav .search_bar i {
+  font-size: 20px;
+  color: #000;
+  position: relative;
+  right: 30px;
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+nav .menu li {
+  list-style: none;
+}
+
+nav .menu li a {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.1s all;
+}
+
+nav .menu li a:hover {
+  color: #118da8;
+}
+
+nav button {
+  background: #118da8;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  width: 160px;
+  height: 30px;
+  cursor: pointer;
+}
+
+nav .notifications i {
+  background: #ffffff;
+  border: 2px solid #c4c4c4;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #C4C4C4;
+  cursor: pointer;
+}
+
+nav .notifications span{
+    font-size: 8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFAD0F;
+    color: #000;
+    position: absolute;
+    right: 125px;
+    top: 40px;
+}

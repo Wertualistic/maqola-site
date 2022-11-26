@@ -1,0 +1,93 @@
+header .top{
+    display: flex;
+    padding: 80px 130px;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    border-bottom: 1px solid #6B6A6A;
+}
+
+header .top h1{
+    font-size: 64px;
+    color: #000;
+    font-weight: 400;
+}
+
+header.top p{
+    font-size: 24px;
+    color: #000;
+}
+
+header .top button{
+    color: #fff;
+    background: #118DA8;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    width: 260px;
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+header .bottom{
+    padding: 40px 130px;
+}
+
+header .bottom .first{
+    display: flex;
+    padding-top: 50px;
+}
+
+header .bottom .first .num h1{
+    font-size: 24px;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    border: 2px dashed #FC7E0F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .bottom .first .num{
+    display: flex;
+    margin-right: 50px;
+}
+
+.about .profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.txt p{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.txt .date__time{
+    color: #6B6A6A;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 200;
+}
+
+.txt .date__time p{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.all-cards{
+    gap: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
