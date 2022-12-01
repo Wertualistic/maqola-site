@@ -69,3 +69,33 @@
     margin-left: 50px;
     gap: 20px;
 }
+
+@media screen and (max-width: 1100px){
+    .section{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .section .all-cards .all, .date__time{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .section .btns{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .section .all-cards .card{
+        width: 300px;
+    }
+    .section .all-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
