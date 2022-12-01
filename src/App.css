@@ -3,3 +3,17 @@
         padding: 0 !important;
     }
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#root{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

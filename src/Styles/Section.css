@@ -90,8 +90,21 @@
 
 @media screen and (max-width: 500px){
     .section .all-cards .card{
-        width: 300px;
+        width: 300px !important;
     }
+    .section .all-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section .all-cards .card{
+        width: 500px;
+    }
+
     .section .all-cards{
         display: flex;
         flex-direction: column;
