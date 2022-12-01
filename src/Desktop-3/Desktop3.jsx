@@ -6,7 +6,7 @@ import Comments from './Comments';
 
 function Desktop3() {
   return (
-    <div className="App">
+    <div className="Desktop">
       <Header />
       <Section1 />
       <Cards />

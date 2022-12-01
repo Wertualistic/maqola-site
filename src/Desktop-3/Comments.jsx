@@ -73,7 +73,7 @@ function Comments() {
       <div className="send">
         <h1>Siz Nima Deb O'ylaysiz ?</h1>
         <textarea name="" id="" cols="70" rows="10"></textarea>
-        <button>Yuborish --></button>
+        <button>Yuborish</button>
       </div>
     </div>
   );
