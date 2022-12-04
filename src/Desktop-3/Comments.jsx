@@ -3,7 +3,7 @@ import img from '../imgs/image-186.png';
 
 function Comments() {
   return (
-    <div className="comments">
+    <div className="comments container">
       <div className="top">
         <h1>
           Komentlar <span>19</span>
@@ -11,10 +11,10 @@ function Comments() {
         <a href="/#"><i className="fas fa-pen"></i>Koment Yozish</a>
       </div>
       <hr />
-      <div className="all-cards">
-        <div className="card">
-            <div className="profile">
-                <img src={img} />
+      <div className="all-card">
+        <div className="card container border-0 border-bottom">
+            <div className="profile d-flex">
+                <img src={img} width='50px' height='50px'/>
                 <div className="desc">
                     <div className="pr">
                         <h3>Ayjamal Sterling</h3>
@@ -26,9 +26,9 @@ function Comments() {
                 </div>
             </div>
         </div>
-        <div className="card">
-            <div className="profile">
-                <img src={img} />
+        <div className="card container border-0 border-bottom">
+            <div className="profile d-flex">
+                <img src={img} width='50px' height='50px'/>
                 <div className="desc">
                     <div className="pr">
                         <h3>Ayjamal Sterling</h3>
@@ -40,9 +40,9 @@ function Comments() {
                 </div>
             </div>
         </div>
-        <div className="card">
-            <div className="profile">
-                <img src={img} />
+        <div className="card container border-0 border-bottom">
+            <div className="profile d-flex">
+                <img src={img} width='50px' height='50px'/>
                 <div className="desc">
                     <div className="pr">
                         <h3>Ayjamal Sterling</h3>
@@ -54,9 +54,9 @@ function Comments() {
                 </div>
             </div>
         </div>
-        <div className="card">
-            <div className="profile">
-                <img src={img} />
+        <div className="card container border-0 border-bottom">
+            <div className="profile d-flex">
+                <img src={img} width='50px' height='50px'/>
                 <div className="desc">
                     <div className="pr">
                         <h3>Ayjamal Sterling</h3>
@@ -69,11 +69,11 @@ function Comments() {
             </div>
         </div>
       </div>
-      <button className="btn"><i class="fa-solid fa-arrows-rotate"></i> Ko'proq ko'rish</button>
+      <button className="btn btn-light container"><i class="fa-solid fa-arrows-rotate"></i> Ko'proq ko'rish</button>
       <div className="send">
         <h1>Siz Nima Deb O'ylaysiz ?</h1>
-        <textarea name="" id="" cols="70" rows="10"></textarea>
-        <button>Yuborish</button>
+        <textarea cols="40" rows="10" className="form-control container w-3" style={{'maxWidth': '700px'}}></textarea>
+        <button className="btn btn-primary float-start" style={{'color': 'white', 'width': '130px'}}>Yuborish <i className="fas fa-line-right"></i></button>
       </div>
     </div>
   );

@@ -243,15 +243,6 @@ header .bg {
     align-items: center;
 }
 
-.comments .all-cards .card{
-    border: none;
-    display: flex;
-    align-items: center;
-    height: 30vh;
-    width: 70vw;
-    border-bottom: 1px solid grey;
-}
-
 .comments .all-cards .card .profile{
     display: flex;
     align-items: center;
@@ -285,4 +276,9 @@ header .bg {
 .comments .send input{
     width: 50vw;
     height: 30vh;
+}
+
+.comments .card{
+    height: 250px;
+    padding-top: 50px;
 }

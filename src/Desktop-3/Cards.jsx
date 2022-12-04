@@ -2,11 +2,11 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div className="cards-head d-f">
+    <div className="cards-head d-f container">
       <div className="cards d-f">
         <div className='d-f cardss'>
         <div className="card d-f">
-          <div className='card-img'></div><br />
+          <div className='card-img container'></div><br />
           <h1>Lorem ipsum dolor sit amet consectetur. Nulla nulla urna sit.</h1><br />
           <div className='icons d-f'>
           <div className='d-f icon'>
