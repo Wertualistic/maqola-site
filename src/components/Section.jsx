@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img from "../imgs/IMAGE (1).svg";
 import '../Styles/Section.css';
 
@@ -37,7 +38,7 @@ function Section() {
             </div>
           </div>
         </div>
-        <div className="card">
+        <Link to='/desktop-3' className="card">
           <img src={img} alt="" />
           <div className="txt">
             <div className="p">
@@ -67,7 +68,7 @@ function Section() {
             </div>
             </div>
           </div>
-        </div>
+        </Link>
         <div className="card">
           <img src={img} alt="" />
           <div className="txt">
