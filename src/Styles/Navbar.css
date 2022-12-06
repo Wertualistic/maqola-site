@@ -3,29 +3,31 @@
   font-family: "Lora";
 }
 
-.nav_brand h1 {
+.navv_brand h1 {
   font-weight: 500;
   font-size: 36px;
 }
 
-nav {
+.navv {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 130px;
+  padding: 10px;
   border-bottom: 1px solid #6B6A6A;
+  background-color: #fff;
+  z-index: 99;
 }
 
-nav .all{
+.navv .all{
   display: flex;
 }
 
-nav .search_bar {
+.navv .search_bar {
   display: flex;
   align-items: center;
 }
 
-nav .search_bar input {
+.navv .search_bar input {
   width: 300px;
   height: 30px;
   border-radius: 15px;
@@ -37,36 +39,36 @@ nav .search_bar input {
   outline: none;
 }
 
-nav .search_bar i {
+.navv .search_bar i {
   font-size: 20px;
   color: #000;
   position: relative;
   right: 30px;
 }
 
-nav .menu {
+.navv .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
 }
 
-nav .menu li {
+.navv .menu li {
   list-style: none;
 }
 
-nav .menu li a {
+.navv .menu li a {
   font-size: 16px;
   color: #000;
   text-decoration: none;
   transition: 0.1s all;
 }
 
-nav .menu li a:hover {
+.navv .menu li a:hover {
   color: #118da8;
 }
 
-nav button {
+.navv button {
   background: #118da8;
   border-radius: 5px;
   font-size: 16px;
@@ -75,9 +77,10 @@ nav button {
   width: 160px;
   height: 30px;
   cursor: pointer;
+  margin-left: 50px;
 }
 
-nav .notifications i {
+.navv .notifications i {
   background: #ffffff;
   border: 2px solid #c4c4c4;
   border-radius: 5px;
@@ -90,7 +93,7 @@ nav .notifications i {
   cursor: pointer;
 }
 
-nav .notifications span{
+.navv .notifications span{
     font-size: 8px;
     width: 15px;
     height: 15px;
@@ -101,16 +104,16 @@ nav .notifications span{
     background: #FFAD0F;
     color: #000;
     position: absolute;
-    right: 125px;
-    top: 40px;
+    right: 105px;
+    top: 17px;
 }
 
-nav .burger_menu{
+.navv .burger_menu{
   display: none;
 }
 
 @media screen and (max-width: 1100px) {
-  nav .all{
+  .navv .all{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -123,52 +126,52 @@ nav .burger_menu{
     align-items: center;
   }
 
-  nav .all .menu{
+  .navv .all .menu{
     flex-direction: column;
     padding-top: 50px !important;
     gap: 15px !important;
     padding-bottom: 50px !important;
   }
 
-  nav .all .menu a{
+  .navv .all .menu a{
     font-size: 30px;
     margin-top: 0 !important;
   }
 
-  nav .nav_brand{
+  .navv .navv_brand{
     z-index: 999;
   }
 
-  nav .nav_brand h1{
+  .navv .navv_brand h1{
     padding: 30px !important;
   }
 
-  nav .notifications{
+  .navv .notifications{
     position: absolute !important;
     z-index: 99;
     top: 40px;
     right: 90px;
   }
 
-  nav .notifications span{
+  .navv .notifications span{
     top: -5px;
     right: -5px;
   }
 
-  nav .burger_menu{
+  .navv .burger_menu{
     z-index: 999;
     display: block;
     padding-right: 30px !important;
   }
 
-  nav .auth button{
+  .navv .auth button{
     font-size: 20px;
     width: 250px;
     height: 50px;
     margin-bottom: 50px !important;
   }
 
-  nav .burger_menu i{
+  .navv .burger_menu i{
     font-size: 30px;
     cursor: pointer;
   }

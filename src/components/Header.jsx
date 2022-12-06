@@ -2,10 +2,11 @@ import React from "react";
 import img from "../imgs/IMAGE.svg";
 import "../Styles/Header.css";
 import profilePhoto1 from '../imgs/pexels-sound-on-3755931 3.svg';
+import Container from 'react-bootstrap/Container'
 
 function Header() {
   return (
-    <header>
+    <Container className="header">
       <div className="top">
         <div className="img">
           <img src={img} alt="" />
@@ -114,7 +115,7 @@ function Header() {
         </div>
         </div>
       </div>
-    </header>
+    </Container>
   );
 }
 
