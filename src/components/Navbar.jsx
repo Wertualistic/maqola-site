@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/Navbar.css";
+import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
   return (
     <Container className="navv">
       <div className="nav_brand">
-        <h1>Maqola</h1>
+        <h1>Maqola <span className="span">Beta</span></h1>
       </div>
       {toggle ? (
         <div className="all alll">
@@ -32,7 +33,9 @@ function Navbar() {
             </li>
           </div>
           <div className="auth">
-            <button>Ro'yxatdan o'tish</button>
+            <Link to='/login'>
+              <button>Ro'yxatdan o'tish</button>
+            </Link>
           </div>
         </div>
       ) : (

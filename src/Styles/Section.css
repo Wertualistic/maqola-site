@@ -19,6 +19,7 @@
     justify-content: center;
     padding: 20px;
     gap: 50px;
+    text-decoration: none !important;
 }
 
 .section .all-cards .card .p p{

@@ -22,7 +22,7 @@ function Header() {
           <hr />
           <br />
           <div className='d-f title'>
-            <a href="$">Maqola</a>
+            <a href="$">Maqola <span className="span">Beta</span></a>
             <div className='d-f right'>
               <h1>Monday, January 1, 2018</h1>
               <div className='d-f weather'>

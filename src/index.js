@@ -4,15 +4,18 @@ import './index.css';
 import App from './App';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Desktop3 from './Desktop-3/Desktop3';
+import Authenticated from './Authenticated/Authenticated';
+import Home from './Authenticated/Home';
+import Login from './components/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+
+  <>
+    <React.StrictMode>
     <Router>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/desktop-3" element={<Desktop3 />} />
-      </Routes>
+      <App />
     </Router>
   </React.StrictMode>
+  </>
 );
