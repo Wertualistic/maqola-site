@@ -7,3 +7,8 @@
 .profile{
     padding-left: 100px;
 }
+
+.profile .second{
+    position: absolute;
+    left: 600px;
+}

@@ -11,6 +11,7 @@ import Login from './components/Login';
 import Bookmark from './Authenticated/Bookmark';
 import Edit from './Authenticated/Edit';
 import Profile from './Authenticated/Profile';
+import Sozlamalar from './Authenticated/Sozlamalar';
 import Maqola_yozish from './Authenticated/Maqola_yozish';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/authenticated/maqola_yozish" element={<Maqola_yozish />} />
         <Route path="/authenticated/edit" element={<Edit />} />
         <Route path="/authenticated/profile" element={<Profile />} />
+        <Route path="/authenticated/sozlamalar" element={<Sozlamalar />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </div>

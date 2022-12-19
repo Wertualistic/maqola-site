@@ -1,0 +1,38 @@
+.action .menu{
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    transition: .3s ease;
+    position: relative;
+    top: 30px;
+    z-index: 99999;
+    border-radius: 10px;
+    justify-content: center;
+    height: 80px;
+    padding-left: 10px;
+}
+
+.action .profile{
+    position: relative;
+    left: -30px;
+}
+
+.action .profile:hover{
+    cursor: pointer;
+}
+
+.action .menu::before{
+    content: '';
+    position: absolute;
+    left: 90px;
+    right: 28px;
+    height: 20px;
+    width: 20px;
+    top: -10px;
+    background: #fff;
+    
+    transform: rotate(45deg);
+}
+
+.action .link{
+    text-decoration: none;
+    color: #000;
+}
